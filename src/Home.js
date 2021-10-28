@@ -24,8 +24,8 @@ function classNames(...classes) {
 export default function Header() {
   return (
     <>
-    <a href="#home">
-      <Disclosure as="nav" className="bg-white shadow">
+  
+      <Disclosure as="nav" className="bg-white shadow" id="home">
         {({ open }) => (
           <>
             <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -73,6 +73,12 @@ export default function Header() {
                       className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                     >
                       Projects
+                    </a>
+                    <a
+                      href="#Technologies"
+                      className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                    >
+                      Technologies
                     </a>
                     <a
                       href="#Contact"
@@ -144,15 +150,8 @@ export default function Header() {
                 {/* Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
                 <Disclosure.Button
                   as="a"
-                  href="#Home"
-                  className="bg-indigo-50 border-indigo-500 text-indigo-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
-                >
-                  Home
-                </Disclosure.Button>
-                <Disclosure.Button
-                  as="a"
                   href="#Bio"
-                  className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+                  className="bg-indigo-50 border-indigo-500 text-indigo-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
                 >
                   Bio
                 </Disclosure.Button>
@@ -169,6 +168,13 @@ export default function Header() {
                   className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
                 >
                   Technologies
+                </Disclosure.Button>
+                <Disclosure.Button
+                  as="a"
+                  href="#Contact"
+                  className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+                >
+                  Contact
                 </Disclosure.Button>
               </div>
             </Disclosure.Panel>
@@ -234,7 +240,6 @@ export default function Header() {
           </div>
         </div>
       </div>
-      </a>
     </>
   );
 }

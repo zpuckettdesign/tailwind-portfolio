@@ -1,8 +1,9 @@
-import React from 'react';
+import React from "react";
 
 export default function Technologies() {
-    return (
-      <div className="bg-white">
+  return (
+
+      <div className="bg-white" id="Technologies">
         <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
           <p className="text-center text-base font-semibold uppercase text-gray-600 tracking-wider">
             Technologies
@@ -29,11 +30,7 @@ export default function Technologies() {
               <span>Node.JS</span>
             </div>
             <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-100">
-              <img
-                className="max-h-12"
-                src="../images/mysql.png"
-                alt="MySQL"
-              />
+              <img className="max-h-12" src="../images/mysql.png" alt="MySQL" />
               <span>MySQL</span>
             </div>
             <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-100">
@@ -43,36 +40,29 @@ export default function Technologies() {
                 alt="MongoDB"
               />
               <span>MongoDB</span>
-              </div>
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-100">
+            </div>
+            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-100">
               <img
                 className="max-h-12"
                 src="../images/tailwind.png"
                 alt="Tailwind"
               />
               <span>Tailwind CSS</span>
-              </div>
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-100">
+            </div>
+            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-100">
               <img
                 className="max-h-12"
                 src="../images/material.png"
                 alt="Material"
               />
               <span>Material UI</span>
-              </div>
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-100">
-              <img
-                className="max-h-12"
-                src="../images/adobe.png"
-                alt="Adobe"
-              />
+            </div>
+            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-100">
+              <img className="max-h-12" src="../images/adobe.png" alt="Adobe" />
               <span>Adobe Creative Cloud</span>
             </div>
           </div>
         </div>
       </div>
-   
-    
-     
-    )
-  }
+  );
+}

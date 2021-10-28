@@ -73,8 +73,8 @@ const posts = [
 
 export default function Projects() {
   return (
-      <a href="#Projects">
-    <div className="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
+
+    <div className="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8" id="Projects">
       <div className="absolute inset-0">
         <div className="bg-white h-1/3 sm:h-2/3" />
       </div>
@@ -142,6 +142,5 @@ export default function Projects() {
         </div>
       </div>
     </div>
-    </a>
   );
 }
