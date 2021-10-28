@@ -7,8 +7,8 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 const profile = {
   name: "Zach Puckett",
   email: "zpuckettdesign@gmail.com",
-  avatar: "../profilepic.jpeg",
-  backgroundImage: "../header.jpg",
+  avatar: "../images/profilepic.jpeg",
+  backgroundImage: "../images/header.jpg",
   fields: [
     ["Phone", "(615)430-3114"],
     ["Email", "zpuckettdesign@gmail.com"],
@@ -45,12 +45,12 @@ export default function Header() {
                   <div className="flex-shrink-0 flex items-center">
                     <img
                       className="block lg:hidden h-40 w-auto"
-                      src="../zpheader.png"
+                      src="../images/zpheader.png"
                       alt="Portfolio"
                     />
                     <img
                       className="hidden lg:block h-40 w-auto"
-                      src="../zpheader.png"
+                      src="../images/zpheader.png"
                       alt="Portfolio"
                     />
                   </div>
@@ -90,7 +90,7 @@ export default function Header() {
                         <span className="sr-only"></span>
                         <img
                           className="h-8 w-15 full"
-                          src="../linkedin-github.png"
+                          src="../images/linkedin-github.png"
                           alt="socials"
                         />
                       </Menu.Button>

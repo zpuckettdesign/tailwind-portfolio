@@ -7,11 +7,11 @@ const posts = [
     category: { name: "Click Here for App", href: "https://bradens-soc.netlify.app/" },
     description:
       "React app created to instantly calculate a retail price for a product. This app is still under development for additional features and UI.",
-    imageUrl: "../bradens.png",
+    imageUrl: "../images/bradens.png",
     author: {
       name: "GitHub Repository",
       href: "https://github.com/zpuckettdesign/bradens-soc2.0",
-      imageUrl: "../GitHub-Mark.png",
+      imageUrl: "../images/GitHub-Mark.png",
     },
   },
   {
@@ -20,11 +20,11 @@ const posts = [
     category: { name: "Click Here for App", href: "https://grasslandheights.org/" },
     description:
       "Church website made with WordPress.",
-    imageUrl: "../grassland.png",
+    imageUrl: "../images/grassland.png",
     author: {
         name: "GitHub Repository",
         href: "",
-        imageUrl: "../GitHub-Mark.png",
+        imageUrl: "../images/GitHub-Mark.png",
       },
     
   },
@@ -34,11 +34,11 @@ const posts = [
     category: { name: "Click Here for App", href: "http://www.yaynayz.com/" },
     description:
       "Yaynayz is a useful polling/voting app for finding out quickly if people agree or disagree.",
-    imageUrl: "../yaynayz.png",
+    imageUrl: "../images/yaynayz.png",
     author: {
       name: "GitHub Repository",
       href: "https://github.com/zpuckett/yaynayz",
-      imageUrl: "../GitHub-Mark.png",
+      imageUrl: "../images/GitHub-Mark.png",
     },
   },
   {
@@ -48,11 +48,11 @@ const posts = [
     description:
       "This app is design for a simple work space to keep track of notes. Created from Express.js.",
 
-    imageUrl: "../noteexpresswt.gif",
+    imageUrl: "../images/noteexpresswt.gif",
     author: {
       name: "GitHub Repository",
       href: "https://github.com/zpuckett/express-note-taker",
-      imageUrl: "../GitHub-Mark.png",
+      imageUrl: "../images/GitHub-Mark.png",
     },
   },
   {
@@ -61,11 +61,11 @@ const posts = [
     category: { name: "Click Here for App", href: "https://weatherdashboardzp.netlify.app/" },
     description:
       "Weather-Dashboard is an application to find the current weather condition of a selected city both the current and 5-Days forecast at the same time. A server-side API was used to pull data objects for components",
-    imageUrl: "../weatherdash.jpeg",
+    imageUrl: "../images/weatherdash.jpeg",
     author: {
       name: "GitHub Repository",
       href: "https://github.com/zpuckett/weather-dashboard",
-      imageUrl: "../GitHub-Mark.png",
+      imageUrl: "../images/GitHub-Mark.png",
     },
   },
   

@@ -11,27 +11,27 @@ export default function Technologies() {
             <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-100">
               <img
                 className="max-h-12"
-                src="../js.png"
+                src="../images/js.png"
                 alt="JavaScript"
               />
               <span>JavaScript</span>
             </div>
             <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-100">
-              <img className="max-h-12" src="../react.png" alt="React" />
+              <img className="max-h-12" src="../images/react.png" alt="React" />
               <span>React</span>
             </div>
             <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-100">
-              <img className="max-h-12" src="./next.svg" alt="Next.JS" />
+              <img className="max-h-12" src="./images/next.svg" alt="Next.JS" />
               <span>Next.JS</span>
             </div>
             <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-100">
-              <img className="max-h-12" src="../nodejs.svg" alt="Node" />
+              <img className="max-h-12" src="../images/nodejs.svg" alt="Node" />
               <span>Node.JS</span>
             </div>
             <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-100">
               <img
                 className="max-h-12"
-                src="../mysql.png"
+                src="../images/mysql.png"
                 alt="MySQL"
               />
               <span>MySQL</span>
@@ -39,7 +39,7 @@ export default function Technologies() {
             <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-100">
               <img
                 className="max-h-12"
-                src="../mongo.png"
+                src="../images/mongo.png"
                 alt="MongoDB"
               />
               <span>MongoDB</span>
@@ -47,7 +47,7 @@ export default function Technologies() {
               <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-100">
               <img
                 className="max-h-12"
-                src="../tailwind.png"
+                src="../images/tailwind.png"
                 alt="Tailwind"
               />
               <span>Tailwind CSS</span>
@@ -55,7 +55,7 @@ export default function Technologies() {
               <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-100">
               <img
                 className="max-h-12"
-                src="../material.png"
+                src="../images/material.png"
                 alt="Material"
               />
               <span>Material UI</span>
@@ -63,7 +63,7 @@ export default function Technologies() {
               <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-100">
               <img
                 className="max-h-12"
-                src="../adobe.png"
+                src="../images/adobe.png"
                 alt="Adobe"
               />
               <span>Adobe Creative Cloud</span>
