@@ -28,46 +28,7 @@ const posts = [
       },
     
   },
-  {
-    title: "YayNayz",
-    href: "http://www.yaynayz.com/",
-    category: { name: "Click Here for App", href: "http://www.yaynayz.com/" },
-    description:
-      "Yaynayz is a useful polling/voting app for finding out quickly if people agree or disagree.",
-    imageUrl: "../images/yaynayz.png",
-    author: {
-      name: "GitHub Repository",
-      href: "https://github.com/zpuckett/yaynayz",
-      imageUrl: "../images/GitHub-Mark.png",
-    },
-  },
-  {
-    title: "Express Note Taker",
-    href: "https://github.com/zpuckett/express-note-taker",
-    category: { name: "Click here for App", href: "https://github.com/zpuckett/express-note-taker" },
-    description:
-      "This app is design for a simple work space to keep track of notes. Created from Express.js.",
 
-    imageUrl: "../images/noteexpresswt.gif",
-    author: {
-      name: "GitHub Repository",
-      href: "https://github.com/zpuckett/express-note-taker",
-      imageUrl: "../images/GitHub-Mark.png",
-    },
-  },
-  {
-    title: "Weather Dashboard",
-    href: "https://weatherdashboardzp.netlify.app/",
-    category: { name: "Click Here for App", href: "https://weatherdashboardzp.netlify.app/" },
-    description:
-      "Weather-Dashboard is an application to find the current weather condition of a selected city both the current and 5-Days forecast at the same time. A server-side API was used to pull data objects for components",
-    imageUrl: "../images/weatherdash.jpeg",
-    author: {
-      name: "GitHub Repository",
-      href: "https://github.com/zpuckett/weather-dashboard",
-      imageUrl: "../images/GitHub-Mark.png",
-    },
-  },
   
 ];
 
